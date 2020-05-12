@@ -1,0 +1,11 @@
+body,html{
+    background: #ccc;
+}
+.userInfo{
+    padding: 20px;
+}
+.userInfo .weui-cells{
+    background: #fff;
+    
+    border-radius: 4px;
+}

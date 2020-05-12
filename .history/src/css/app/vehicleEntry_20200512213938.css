@@ -1,0 +1,130 @@
+body,html{
+    background: #f7f8fa;
+}
+.userInfo{
+    padding: 40px;
+}
+.readForm input{
+    color: #2A2A2A;
+}
+.readForm input::-webkit-input-placeholder { 
+    color: #2A2A2A;
+}
+.readForm input:-moz-placeholder { 
+    color: #2A2A2A;
+}
+.readForm input::-moz-placeholder {
+    color: #2A2A2A;
+}
+.readForm input:-ms-input-placeholder { 
+    color: #2A2A2A;
+}
+.userInfo .userInfo_form{
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 0;
+    padding: 0 20px;
+    font-size: 26px;
+}
+.userInfo .weui-label{
+    color:#797979;
+}
+.userInfo_form .form_cell{
+    padding: 20px;
+    border-bottom: 2px solid #F1F1F1;
+}
+.more{
+    padding: 20px;
+    text-align: center;
+    color:#797979;
+}
+.more p{
+    line-height: 60px;
+}
+.userInfo_form .form_cell:last-child{
+    border-bottom: none;
+}
+.form_cell label{
+    line-height: 60px;
+}
+.form_cell label,.form_cell .cell2{
+     height: 60px; 
+}
+.form_cell .cell{
+    width: 180px;
+    float: left;
+}
+.form_cell .center{
+   margin-left: 180px;
+}
+.form_cell .weui_right{
+    text-align: right;
+    float: right;
+}
+.form_cell_3 .center input{
+    width: 200px;
+}
+
+
+
+.userInfo .weui-cell__bd input{
+    font-size: 30px;
+    color: #2A2A2A;
+}
+.userInfo .form_cell p{
+    text-align: center;
+    font-size: 28px;
+    color: #999999;
+    padding-bottom: 40px;
+}
+.carCheck{
+  padding-top: 0;
+}
+.carCheck .form_cell p{
+   margin-left: 0;
+   color: #333;
+}
+.weui-cell .weui-cell-right{
+    color: #2A2A2A;
+    font-size: 30px;
+}
+.upload{
+    padding-top: 0;
+}
+
+.weui-uploader__file_status{
+    background-size: 100% 100%;
+    position: relative;
+}
+.weui-uploader__file,.upload .weui-uploader__input-box{
+    height: 117px;
+    width: 117px;
+    border-width: 2px;
+}
+.weui-uploader__file_status img{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    height: 40px;
+    width: 40px;
+}
+.weui-uploader__file_status::before{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.userInfo .upload{
+    padding-bottom: 20px;
+}
+.weui-uploader__hd .title{
+    color:#797979;
+    font-size:28px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #F1F1F1;
+}
+.weui-uploader__bd .info{
+    height: 188px;
+    color: #999999;
+}
+.userInfo_form .form_cell.hide{
+    display: none !important;
+}

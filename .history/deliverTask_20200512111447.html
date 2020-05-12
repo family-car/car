@@ -1,0 +1,54 @@
+<!-- HTML5文件 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<title>送车任务</title>
+	<!-- ui框架引入css -->
+	<link href="lib/weui/weui.min.css" rel="stylesheet" type="text/css" />
+	<link href="lib/weui/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+	<!-- 公用样式css -->
+	<link href="src/css/base.css" rel="stylesheet" type="text/css" />
+	<!-- 界面引入css -->
+  <link href="src/css/app/deliverTask.css" rel="stylesheet" type="text/css" />
+  <!-- jquery引入 -->
+  <script type="text/javascript" src="lib/jquery/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="lib/unit.js"></script>
+</head>
+<body>
+
+<div class="main bot44">
+    <div class="taskHeader">
+        <div class="taskSearch flex flex-between">
+            <div class="searchInput cf">
+                <div class="fl flex flex-center searchIcon"><img src="src/image/search.png"/></div>
+                <input type="text" placeholder="车牌号/客户姓名/手机号/VIN码" class="fl"/>
+            </div>
+            <div class="sys"><img src="src/image/sys.png"/></div>
+        </div>
+        <ul class="taskTabbar cf">
+            <li class="active">待送车</li>
+            <li>已完成</li>
+        </ul>
+    </div>
+    <div class="taskList">
+        <div class="taskItem">
+            <h2 class="cf">
+                <span class="fl">京A1023</span>
+                <span class="fr">待送车</span>
+            </h2>
+            <p class="taskItem_user">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- jquery引入 -->
+<script type="text/javascript" src="lib/jquery/swiper.js"></script>
+<script type="text/javascript" src="src/js/entry/deliverTask.js"></script>
+</body>
+</html>

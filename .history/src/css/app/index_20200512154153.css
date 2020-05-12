@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+.banner{
+    padding: 20px;
+}
+.bannerList{
+    overflow: hidden;
+    width: 100%;
+    border-radius: 2px;
+}
+.bannerList img{
+    width: 100%;
+    height:100%;
+}
+.swpierList .iconList{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: .4rem 0;
+}
+
+.iconList img{
+    height: 41px;
+    width: 41px;
+}
+.iconList p{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.subject{
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.subject_left{
+    width: 36%;
+}
+.subject_right{
+    width: 60%;
+}
+.myCheck{
+    height: 152px;
+    padding: 0 10px;
+    background: #FBF9F8;
+    border-radius: 4px;
+}
+.myCheck dt{
+    line-height: 34px;
+    margin-bottom: 11px;
+    font-size: 16px;
+}
+.myCheck dd img{
+    height: 78px;
+    width: 78px;
+}
+.task{
+    width: 100%;
+    height: 58px;
+    padding: 0 10px;
+    background: #F7FBFC;
+    border-radius: 4px;
+    position: relative;
+}
+.taskCon dt{
+    line-height: 34px;
+}
+.taskCon dd img{
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 12px;
+}
+.myProject{
+    margin-top: 8px;
+}
+.myProject .projectCon{
+    height: 87px;
+    width: 48%;
+    padding: 0 10px;
+    background: #FAF9F5;
+    border-radius: 4px;
+}
+.myProject .projectCon dt{
+    line-height: 34px;
+}
+.myProject .projectCon dd img{
+    height: 32px;
+    width: 32px;
+}

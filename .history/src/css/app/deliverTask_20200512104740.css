@@ -1,0 +1,21 @@
+.taskSearch{
+    background: #fff;
+}
+.searchInput{
+    width: 302px;
+    height: 31px;
+    border:2px solid #D93D30;
+    border-radius: 15px;
+}
+.searchInput .searchIcon{
+    width: 38px;
+    height: 31px;
+}
+.searchInput .searchIcon img{
+   width: 16px;
+}
+.searchInput input{
+    width: 260px;
+    height: 27px;
+    border-radius: 15px;
+}

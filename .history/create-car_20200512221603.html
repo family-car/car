@@ -1,0 +1,107 @@
+<!-- HTML5文件 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+        <meta content="telephone=no,email=no" name="format-detection">
+        <meta name="wap-font-scale" content="no">
+        <title>商城</title>
+        <!-- ui框架引入css -->
+        <link href="lib/weui/weui.min.css" rel="stylesheet" type="text/css" />
+        <link href="lib/weui/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+        <!-- 公用样式css -->
+        <link href="src/css/base.css" rel="stylesheet" type="text/css" />
+        <!-- 界面引入css -->
+        <link href="src/css/app/create-car.css?version=20200202" rel="stylesheet" type="text/css" />
+    </head>
+</head>
+<body>
+
+<div class="main bot44">
+  <div class="create-car">
+    <div class="car-content">
+        <ul>
+            <li>
+                <span class="car-info">车辆信息</span>
+                <input type="text" class="car-ipt">
+                <span class="car-clear">清空</span>
+            </li>
+            <li>
+                <span class="car-info">车型</span>
+                <input type="text" class="car-ipt" placeholder="请选择车型">
+                <span class="car-jiantou"></span>
+            </li>
+            <li>
+                <span class="car-info">车牌号码</span>
+                <select name="" class="car-select">
+                    <option value="芝士">渝</option>
+                    <option value="奶油">京</option>
+                </select>
+                <input type="text" class="car-ipt" placeholder="请输入车牌号">
+            </li>
+            <li>
+                <span class="car-info">VIN码</span>
+                <input type="text" class="car-ipt" placeholder="E51699" readonly>
+            </li>
+            <li class="cell-none">
+                <span class="car-info">VIN码</span>
+                <input type="text" class="car-ipt" placeholder="E51699">
+            </li>
+            <li class="cell-none">
+                <span class="car-info">VIN码</span>
+                <input type="text" class="car-ipt" placeholder="E51699">
+            </li>
+            <li class="cat-li-end">
+                <img src="./src/image/create-car/more-list.png" alt="" class="more-list-content">
+            </li>
+        </ul>
+    </div>
+    <div class="customer-content">
+        <ul>
+            <li>
+                <span class="car-info">客户信息</span>
+                <input type="text" class="car-ipt">
+                <span class="car-clear">绑定</span>
+            </li>
+            <li>
+                <span class="car-info">姓名</span>
+                <input type="text" class="car-ipt" placeholder="输入客户姓名">
+                <span class="car-jiantou"></span>
+            </li>
+            <li>
+                <span class="car-info">手机号码</span>
+                <input type="text" class="car-ipt" placeholder="输入客户手机号码">
+            </li>
+            <li class="cell-list">
+                <span class="car-info">手机号码</span>
+                <input type="text" class="car-ipt" placeholder="输入客户手机号码">
+            </li>
+            <li class="cell-list">
+                <span class="car-info">手机号码</span>
+                <input type="text" class="car-ipt" placeholder="输入客户手机号码">
+            </li>
+            <li class="cat-li-end">
+                <img src="./src/image/create-car/more-list.png" alt="" class="more-user-list">
+            </li>
+        </ul>
+    </div>
+  </div>
+  
+</div>
+
+<!-- jquery引入 -->
+<script type="text/javascript" src="lib/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/common.js"></script>
+<script>
+    $('.cell-none, .cell-list').hide()
+    $('.more-list-content').on('click',function() {
+        $('.cell-none').toggle(200);
+    })
+    $('.more-user-list').on('click',function() {
+        $('.cell-list').toggle(200);
+    })
+</script>
+</body>
+</html>

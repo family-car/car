@@ -1,0 +1,95 @@
+body,html{
+    background: #f7f8fa;
+}
+.taskHeader{
+    background: #fff;
+}
+.taskSearch{
+    padding: 40px 40px 0 40px;
+}
+.searchInput{
+    width: calc(100% - 120px);
+    height: 62px;
+    border:2px solid #D93D30;
+    border-radius: 35px;
+}
+.searchInput .searchIcon{
+    width: 76px;
+    height: 54px;
+}
+.searchInput .searchIcon img{
+   width: 32px;
+}
+.searchInput input{
+    width: calc(100% - 158px);
+    height: 54px;
+    border-radius: 30px;
+}
+.taskSearch .sys img{
+    width: 40px;
+    height: 40px;
+}
+.taskTabbar{
+    height: 88px;
+}
+.taskTabbar li{
+    width: 50%;
+    float: left;
+    line-height: 88px;
+    text-align: center;
+    font-size: 26px;
+}
+.taskTabbar li.active{
+    border-bottom: 4px solid #D93D30;
+    color: #D93D30;
+}
+.taskList{
+    padding: 0 40px;
+    margin-top: 40px;
+}
+.taskItem{
+    background: #fff;
+    border-radius: 12px;
+    padding: 0 40px;
+    margin-bottom: 40px;
+}
+.taskItem h2{
+    padding: 38px 0px;
+    border-bottom: 2px solid #F1F1F1;
+    font-size: 30px;
+}
+.taskItem h2 span:first-child{
+    color: #333;
+} 
+.taskItem h2 span:last-child{
+    color: #F33822;
+} 
+.taskItem .taskItem_user{
+    padding: 38px 0;
+}
+.taskItem .address{
+    padding-bottom: 38px;
+}
+.weui-tabbar::before {
+    border-top: none !important;
+}
+/*检查车辆列表*/
+.sys img:last-child{
+   margin-left: 20px;
+}
+.checkList .taskItem{
+    display: flex;
+}
+.checkList .taskItem h2 span:first-child{
+    color: #333;
+    flex:1
+}
+.checkList .taskItem h2 span:last-child{
+    color: #071228;
+    flex:2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    
+}

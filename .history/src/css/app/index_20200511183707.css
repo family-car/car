@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+.banner{
+    padding: 20px;
+}
+.bannerList{
+    overflow: hidden;
+    width: 100%;
+    border-radius: 2px;
+}
+.bannerList img{
+    width: 100%;
+    height:100%;
+}
+.swpierList .iconList{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: .4rem 0;
+}
+
+.iconList img{
+    height: 41px;
+    width: 41px;
+}
+.iconList p{
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 30px;
+}

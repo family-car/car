@@ -1,0 +1,22 @@
+.weui-uploader__title{
+    line-height: 68px;
+    border-bottom: 1px solid #F1F1F1;
+}
+.upload .weui-uploader__file,.upload .weui-uploader__input-box{
+    height: 117px;
+    width: 117px;
+    border-width: 2px;
+}
+.weui-uploader__file_status img{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    height: 40px;
+    width: 40px;
+}
+.weui-uploader__input-box{
+    border-style: dashed;
+}
+.uploadBtn{
+    margin-top: 552px;
+}

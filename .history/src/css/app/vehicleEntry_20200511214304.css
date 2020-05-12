@@ -1,0 +1,53 @@
+body,html{
+    background: #d7d7d7;
+}
+.userInfo{
+    padding: 20px;
+}
+.userInfo .weui-cells{
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 0;
+}
+.userInfo .weui-label{
+    color:#797979;
+    font-size: 15px;
+}
+.userInfo .weui-cell__bd input{
+    font-size: 15px;
+    color: #2A2A2A;
+}
+.userInfo .weui-cell p{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #999999;
+}
+.carCheck{
+  padding-top: 0;
+}
+.carCheck .weui-cell p{
+   margin-left: 0;
+   color: #333;
+}
+.weui-cell .weui-cell-right{
+    color: #2A2A2A;
+    font-size: 15px;
+}
+.weui-switch{
+    height: 27px;
+}
+.weui-switch::after{
+    width: 27px;
+    height: 27px;
+}
+.weui-switch::before{
+    width: 26px;
+    height: 26px;
+}
+.weui-switch-cp__input:checked ~ .weui-switch-cp__box::after, .weui-switch:checked::after {
+    transform: translateX(26px);
+}
+.weui-switch:checked{
+    background-color: #FF0000;
+    border-color: #FF0000;
+}

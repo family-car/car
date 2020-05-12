@@ -1,0 +1,54 @@
+<!-- HTML5文件 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<title>所有图片</title>
+	<!-- ui框架引入css -->
+	<link href="lib/weui/weui.min.css" rel="stylesheet" type="text/css" />
+	<link href="lib/weui/jquery-weui.min.css" rel="stylesheet" type="text/css" />
+	<!-- 公用样式css -->
+	<link href="src/css/base.css" rel="stylesheet" type="text/css" />
+	<!-- 界面引入css -->
+  <link href="src/css/app/upload.css" rel="stylesheet" type="text/css" />
+  <!-- jquery引入 -->
+  <script type="text/javascript" src="lib/jquery/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="lib/unit.js"></script>
+</head>
+<body>
+
+<div class="main bot44">
+    <div class="userInfo upload">
+        <div class="userInfo_form">
+            <div class="weui-cell">
+            <div class="weui-cell__bd">
+                <div class="weui-uploader">
+                    <div class="weui-uploader__hd">
+                        <p class="weui-uploader__title title">图片添加</p>
+                    </div>
+                    <div class="weui-uploader__bd">
+                        <ul class="weui-uploader__files" id="uploaderFiles">
+                            <li class="weui-uploader__file weui-uploader__file_status" style="background-image:url(src/image/handel.png)">
+                                <img src="src/image/cancel.png"/>
+                            </li>
+                        </ul>
+                        <div class="weui-uploader__input-box">
+                        <input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="uploadBtn vehicleEntry_btn">完成添加</div>
+</div>
+
+<!-- jquery引入 -->
+<script type="text/javascript" src="lib/jquery/swiper.js"></script>
+<script type="text/javascript" src="src/js/entry/upload.js"></script>
+</body>
+</html>

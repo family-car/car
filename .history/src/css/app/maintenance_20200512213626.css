@@ -1,0 +1,86 @@
+body,html{
+    background: #f7f8fa;
+}
+.serviceProject{
+    padding: 0 20px;
+}
+.serviceP_form{
+    padding: 0 20px;
+}
+.serviceP_form .serviceP_form_item{
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 0 34px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title{
+    border-bottom: 2px solid #F1F1F1;
+    padding: 46px 0;
+}
+.serviceP_form .serviceP_form_item .serviceP_title li{
+    font-size: 26px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title li img{
+    vertical-align: top;
+    height: 26px;
+    width: 26px;
+    margin-right: 8px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title li:first-child{
+    font-size: 28px;
+    color: #333;
+}
+.serviceP_form .serviceP_form_item .serviceP_title .serviceP_title_right{
+    padding-left: 50px;
+}
+.serviceP_form .serviceP_form_item p{
+    padding: 36px 0;
+    text-align: center;
+    font-size: 28px;
+    color: #797979;
+}
+.serviceProject_list .changeOil{
+    padding-bottom: 25px;
+    border-bottom: 2px solid #F1F1F1;
+}
+.serviceProject_list .changeOil li{
+    padding-top: 25px;
+}
+.serviceProject_list .changeOil li .price em{
+    padding-right: 24px;
+}
+.serviceProject_list .chooseMaintain:nth-of-type(2){
+    border-bottom: none;
+}
+.colorRed{
+    color: #D41515;
+}
+.colorblack{
+    color: #333;
+}
+.letterSpacing{
+    letter-spacing:14px
+}
+.chooseMaintain{
+    padding: 26px 0;
+    border-bottom: 2px solid #F1F1F1;
+}
+.serviceP_form_item .form_cell{
+    padding: 36px 0;
+    border-bottom: 1px solid #F1F1F1;
+    font-size: 28px;
+}
+.serviceP_form_item .form_cell  input,label{
+    height: 30px;
+    line-height: 30px;
+}
+.serviceP_form_item .form_cell .weui_right{
+    text-align: right;
+}
+.serviceP_form_item .form_cell:last-child{
+    border-bottom: none;
+}
+.remark_title{
+    padding: 24px 0;
+    border-bottom: 1px solid #F1F1F1;
+}

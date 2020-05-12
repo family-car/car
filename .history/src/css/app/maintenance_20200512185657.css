@@ -1,0 +1,16 @@
+.serviceProject{
+    padding: 0 20px;
+}
+.serviceP_form{
+    background: #fff;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+.serviceP_form .serviceP_form_item{
+    border-bottom: 1px solid #F1F1F1;
+    padding: 46px 0;
+}
+.serviceP_form .serviceP_form_item li img{
+    vertical-align: middle;
+    width: 26px;
+}

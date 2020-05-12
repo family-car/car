@@ -1,0 +1,68 @@
+.choice-car-top{
+    display: flex;
+}
+.choice-car-top-left {
+    flex: 1;
+}
+.choice-car-top-right {
+    flex: 1;
+}
+.choice-car-top .search {
+    width: 542px;
+    height: 31px;
+    border: 2px solid rgba(217,61,48,1);
+    border-radius: 15px;
+    margin: 15px 15px 0 15px;
+    font-size: 12px;
+    text-indent: 33px;
+    display: inline-block;
+    position: relative;
+}
+.search-icon {
+   display: inline-block;
+   width: 17px;
+   height: 17px;
+   background: url('../../image/choice-car/search.png') no-repeat;
+   background-size: contain;
+   position: absolute;
+   top: 22px;
+   left: 26px;
+}
+.choice-car-find {
+    margin-right: 12px;
+}
+.choice-car-find, .choice-car-add {
+    width: 21px;
+    height: 21px;
+    margin-top: 20px;
+}
+.choice-car-content {
+    text-align: center;
+    margin-top: 89px;
+}
+.choice-car-control {
+    width:231px;
+    height:151px;
+}
+.des {
+    margin-top: 24px;
+    font-size: 11px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:#767677;
+    line-height:20px;
+    opacity:0.7;
+}
+.car-btn {
+    width: 83px;
+    height: 25px;
+    background: url('../../image/choice-car/car-btn.png') no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    font-weight:400;
+    font-family: PingFang SC;
+    color:rgba(255,255,255,1);
+}

@@ -1,0 +1,70 @@
+body,html{
+    background: #f7f8fa;
+}
+.userInfo{
+    padding: 20px;
+}
+.userInfo .weui-cell::before{
+    border: none !important;
+}
+.userInfo .weui-cells{
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 0;
+}
+.userInfo .weui-label{
+    color:#797979;
+    font-size: 15px;
+}
+.userInfo .weui-cell__bd input{
+    font-size: 15px;
+    color: #2A2A2A;
+}
+.userInfo .weui-cell p{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #999999;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F1F1F1;
+}
+.carCheck{
+  padding-top: 0;
+}
+.carCheck .weui-cell p{
+   margin-left: 0;
+   color: #333;
+}
+.weui-cell .weui-cell-right{
+    color: #2A2A2A;
+    font-size: 15px;
+}
+.upload{
+    padding-top: 0;
+}
+.weui-switch:checked{
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+.weui-uploader__file_status{
+    background-size: 100% 100%;
+    position: relative;
+}
+.weui-uploader__file_status img{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    height: 20px;
+    width: 20px;
+}
+.weui-uploader__file_status::before{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.weui-uploader__hd .weui-uploader__title{
+    color:#797979;
+    font-size:15px;
+}
+.weui-uploader__bd .info{
+    height: 94px;
+    color: #999999;
+    font-size: 12px;
+}

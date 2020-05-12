@@ -1,0 +1,57 @@
+body,html{
+    background: #f7f8fa;
+}
+.serviceProject{
+    padding: 0 20px;
+}
+.serviceP_form{
+    
+    
+    padding: 0 20px;
+}
+.serviceP_form .serviceP_form_item{
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title{
+    border-bottom: 1px solid #F1F1F1;
+    padding: 46px 34px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title li{
+    font-size: 26px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title li img{
+    vertical-align: top;
+    height: 26px;
+    width: 26px;
+    margin-right: 8px;
+}
+.serviceP_form .serviceP_form_item .serviceP_title li:first-child{
+    font-size: 28px;
+    color: #333;
+}
+.serviceP_form .serviceP_form_item .serviceP_title .serviceP_title_right{
+    padding-left: 50px;
+}
+.serviceP_form .serviceP_form_item p{
+    padding: 36px 0;
+    text-align: center;
+    font-size: 28px;
+    color: #797979;
+}
+.serviceProject_list{
+    padding: 0 34px;
+}
+.serviceProject_list .changeOil{
+    padding-bottom: 25px;
+}
+.serviceProject_list .changeOil li{
+    padding-top: 25px;
+}
+.serviceProject_list .changeOil li .price em{
+    padding-right: 24px;
+}
+.colorRed{
+    color: #D41515;
+}
