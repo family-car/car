@@ -1,0 +1,13 @@
+.order-content {
+    /* position: relative; */
+    text-align: center;
+}
+.open-success {
+    display: block;
+    color: white;
+    font-size: 28px;
+    margin-top: -60px;
+}
+.order-bottom-control {
+    margin-top: 128px;
+}
