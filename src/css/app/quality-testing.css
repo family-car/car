@@ -1,0 +1,93 @@
+.main {
+    min-height: 100vh;
+    background: #F7F8FA;
+    padding: 0.1px;
+    padding-bottom: 50px;
+}
+.quality-testing-top {
+    height: 82px;
+    line-height: 82px;
+    margin: 20px 40px 0 40px;
+    background: white;
+    border-radius:11px;
+    display: flex;
+    font-size:30px;
+}
+.top-dec {
+    flex: 4;
+    text-align: left;
+    text-indent: 30px;
+    color: black;
+}
+.modi-dec {
+    flex: 3;
+    text-align: right;
+    color: red;
+    margin-right: 10px;
+}
+.bot-dec {
+    flex: 3.2;
+    text-align: center;
+    color: red;
+}
+.more-list-content {
+    margin-right: 10px;
+}
+.quality-testing-content {
+    height: 278px;
+    margin: 20px 40px 0 40px;
+    background: white;
+    border-radius:11px;
+    font-size:30px;
+    color: #282828;
+}
+.content-top {
+    height: 87px;
+    line-height: 87px;
+    display: flex;
+}
+.first-dec {
+    flex: 1;
+    text-align: left;
+    margin-left: 30px;
+}
+.second-dec {
+    flex: 1;
+    text-align: right;
+    margin-right: 30px;
+}
+.circle-red {
+    width: 33px;
+    height: 33px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.content-middle {
+    border-top: 1px solid rgba(234,234,234,1);
+    display: flex;
+    height: 191px;
+}
+.middle-left {
+    flex: 1;
+}
+.middle-right {
+    flex: 1;
+    border-left: 1px solid rgba(234,234,234,1);
+}
+.middle-left>span {
+    display: block;
+    margin: 40px 0 0 50px;
+}
+.middle-right>span {
+    display: block;
+    margin: 40px 0 0 50px;
+}
+.control-wenzi {
+    width: 100px;
+    display: inline-block;
+    text-align: justify;
+}
+.control-img {
+    margin-left: 120px;
+    vertical-align: middle;
+}

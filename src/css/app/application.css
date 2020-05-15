@@ -1,0 +1,15 @@
+.main {
+    min-height: 100vh;
+    background: #F7F8FA;
+    padding: 0.1px;
+}
+.application{
+    margin: 56px 40px 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.application img {
+    width: 220px;
+    height: 205px;
+}

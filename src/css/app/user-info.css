@@ -1,0 +1,135 @@
+.main {
+    min-height: 100vh;
+    background: #F7F8FA;
+    padding: 0.1px;
+    padding-bottom: 50px;
+}
+.customer-top {
+    background: white;
+    margin: 21px 40px 0 40px;
+}
+.customer-top-xep {
+    display: flex;
+    padding: 36px 34px 0 42px;
+}
+.car-img {
+    flex: 2;
+}
+.car-info {
+    flex: 6;
+}
+.img-control {
+    width: 105px;
+    height: 105px;
+}
+.car-info span {
+    display: block;
+}
+.car-show {
+    color: black;
+    font-size: 28px;
+    margin-top: 9px;
+}
+.dec-chan {
+    color: #666666 !important;
+}
+.car-clear {
+    width:82px;
+    height:46px;
+    line-height: 46px;
+    text-align: center;
+    /* margin-bottom: 19px; */
+    background:rgba(241,34,34,1);
+    border-radius:10px;
+    margin-top: -3px;
+    font-size:22px;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);  
+}
+.car-name {
+    margin-top: 30px;
+}
+.cahnge {
+    display: block;
+    float: right;
+    width: 35px;
+    height: 35px;
+    background: url('../../image/user-info/change.png') no-repeat;
+    background-size: contain;
+    margin-top: -5px;
+}
+.dec-info ul li {
+    display: flex;
+    margin: 38px 34px 0 34px;
+    font-size: 29px;
+    border-bottom: 1px solid rgba(241,241,241,1);
+}
+.dec-info ul li:last-child{
+    border-bottom: none;
+}
+.dec-info .first-control {
+    flex: 2;
+    color: black;
+    margin-bottom: 38px;
+}
+.dec-info .second-control {
+    flex: 5;
+}
+.car-jiantou {
+    width: 10px;
+    height: 18px;
+    background: url('../../image/create-car/jiantou.png') no-repeat;
+    background-size: contain;
+    margin-top: 4px;
+}
+.customer-bottom {
+    background: white;
+    margin: 21px 40px 0 40px;
+    padding: 0.1px;
+}
+.customer-bottom ul li {
+    display: flex;
+    margin: 38px 34px 0 34px;
+    font-size: 29px;
+    border-bottom: 1px solid rgba(241,241,241,1);
+}
+.customer-bottom .first-control {
+    flex: 2.6;
+    color: black;
+    margin-bottom: 38px;
+}
+.customer-bottom .second-control {
+    flex: 5;
+    text-align: center;
+}
+.customer-bottom ul li:last-child{
+    border-bottom: none;
+}
+.pay-history {
+    background: white;
+    margin: 21px 40px 0 40px;
+    padding: 0.1px;
+}
+.pay-history ul li {
+    display: flex;
+    margin: 25px 34px 0 34px;
+    font-size: 29px;
+}
+.pay-history ul li:first-child{
+    margin: 38px 34px 0 34px;
+    border-bottom: 1px solid rgba(241,241,241,1);
+}
+.pay-history .first-control {
+    flex: 2.6;
+    margin-bottom: 15px;
+}
+.pay-history .second-control {
+    flex: 5;
+    text-align: right;
+    color: black;
+}
+.pay-history .spec-one {
+    color: black; 
+    margin-bottom: 26px;
+}
